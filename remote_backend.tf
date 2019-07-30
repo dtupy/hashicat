@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "hashicorp-workshop"
+    organization = "dtupy-sbx"
     workspaces {
-      name = "YOURWORKSPACE"
+      name = "dtupy-app"
     }
   }
 }
